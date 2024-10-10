@@ -18,6 +18,9 @@ import PlacementGallery from "./components/Placement/PlacementGallery";
 import Birthday from "./components/Events/Birthday";
 import Aniversary from "./components/Events/Aniversary";
 import Tours from "./components/Events/Tours";
+import Prestige from "./components/WorkShop/Prestige";
+import Placement from "./components/Placement/Placement";
+// import Notfound from "./components/NotFound/NotFound";
 
 function App() {
   return (
@@ -32,12 +35,15 @@ function App() {
         <Route path="/mpct" element={<MPCT />} />
         <Route path="/rjit" element={<RJIT />} />
         <Route path="/xiaomi" element={<Xiaomi_Mi_Company />} />
+        <Route path="/Prestige" element={<Prestige />} />
         <Route path="/placement_desk" element={<PlacementDesk />} />
         <Route path="/placement_gallery" element={<PlacementGallery />} />
         <Route path="/birthday" element={<Birthday />} />
         <Route path="/tour" element={<Tours />} />
         <Route path="/aniversary" element={<Aniversary />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/placement" element={<Placement />} />
+        {/* <Route path="*" element={<Notfound />} /> */}
       </Routes>
       <Footer />
     </>

@@ -84,6 +84,11 @@ function Nav() {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
+                    <Link className="dropdown-item dark" to="/prestige">
+                      Prestige College
+                    </Link>
+                  </li>
+                  <li>
                     <Link className="dropdown-item dark" to="/xiaomi">
                       Xiaomi MI Company
                     </Link>
