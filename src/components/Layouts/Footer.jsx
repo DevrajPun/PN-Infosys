@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import colorlogo from "../../assets/images/colorlogo.png";
 
 function Footer() {
   return (
@@ -11,7 +12,7 @@ function Footer() {
               <div className="col-md-4 text-center">
                 <div className="footer-heading">
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/logo%2Fcolorlogo.png?alt=media&token=0386f0aa-e1e1-4950-924f-3eedaa82d967"
+                    src={colorlogo}
                     style={{ width: "100%", height: "100%" }}
                   />
                 </div>
@@ -25,13 +26,35 @@ function Footer() {
                 </p>
                 <ul className="social-icons">
                   <li>
-                    <Link to="https://www.facebook.com/pninfosys/">
+                    <Link
+                      to="https://www.facebook.com/pninfosys/"
+                      target="_blank"
+                    >
                       <i className="fa fa-facebook" />
                     </Link>
                   </li>
                   <li>
-                    <Link to="https://www.linkedin.com/company/pninfosys/">
+                    <Link
+                      to="https://www.instagram.com/pn_infosys/profilecard/?igsh=MXN1N2JvcGRheHAyZw=="
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-instagram"></i>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="https://www.linkedin.com/company/pninfosys/"
+                      target="_blank"
+                    >
                       <i className="fa fa-linkedin" />
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="https://www.youtube.com/@pninfosys"
+                      target="_blank"
+                    >
+                      <i class="fa-brands fa-youtube"></i>
                     </Link>
                   </li>
                 </ul>

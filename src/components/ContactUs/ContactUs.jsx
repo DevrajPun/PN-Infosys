@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/images/colorlogo.png";
 
 function ContactUs() {
   return (
@@ -155,10 +156,7 @@ function ContactUs() {
                   <div className="block-heading">
                     <h4>More Info</h4>
                   </div>
-                  <img
-                    src="https://pninfosys.com/assets/frontend/images/colorlogo.png"
-                    style={{ width: 239 }}
-                  />
+                  <img src={logo} style={{ width: 239 }} />
                   <div className="row">
                     <div className="col-lg-12">
                       <p style={{ fontSize: 15, textAlign: "justify" }}>

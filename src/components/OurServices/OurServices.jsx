@@ -44,7 +44,7 @@ function OurServices() {
                 <div className="feature-item">
                   <div className="icon">
                     <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/services%2F3.jpg?alt=media&token=085d7c11-9810-4d8d-b9e1-f05975f34fa8"
+                      src="https://res.cloudinary.com/dow1049t2/image/upload/PN_INFOSYS/v1728755337/3_of9hbj.jpg"
                       alt
                     />
                   </div>
@@ -55,7 +55,7 @@ function OurServices() {
                 <div className="feature-item">
                   <div className="icon">
                     <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/services%2F1.jpg?alt=media&token=3c5ec41f-f3c7-43cd-8ecd-f966f8516fdf"
+                      src="https://res.cloudinary.com/dow1049t2/image/upload/PN_INFOSYS/v1728755355/1_aarmpu.jpg"
                       alt
                     />
                   </div>
@@ -66,7 +66,7 @@ function OurServices() {
                 <div className="feature-item">
                   <div className="icon">
                     <img
-                      src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/services%2F2.jpg?alt=media&token=a0ea0e45-becc-4e61-a927-fef6a538b2a8"
+                      src="https://res.cloudinary.com/dow1049t2/image/upload/PN_INFOSYS/v1728755357/2_etqiw6.jpg"
                       alt
                     />
                   </div>
@@ -127,7 +127,7 @@ function OurServices() {
               <div className="col-lg-6 align-self-center">
                 <div className="right-image">
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/services%2Fpnservice.png?alt=media&token=883cdc9d-d455-46f2-86f9-4a8c55f8333d"
+                    src="https://res.cloudinary.com/dow1049t2/image/upload/v1728755476/PN_INFOSYS/pnservice_srggra.png"
                     alt
                   />
                 </div>

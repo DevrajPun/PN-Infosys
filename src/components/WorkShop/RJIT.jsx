@@ -1,6 +1,20 @@
 import React from "react";
 
 function RJIT() {
+  const imgLink = [
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914165/PN_INFOSYS/rjit10_uw3amx.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914165/PN_INFOSYS/rjit9_pu9unw.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914165/PN_INFOSYS/rjit4_snukkk.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914165/PN_INFOSYS/rjit1_heqxkk.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914166/PN_INFOSYS/rjit2_kmujen.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914170/PN_INFOSYS/rjit12_tgusem.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914221/PN_INFOSYS/rjit14_z5nm44.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914221/PN_INFOSYS/rjit15_vptvmc.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914171/PN_INFOSYS/rjit16_uytstp.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914171/PN_INFOSYS/rjit13_2_m7mbj7.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914172/PN_INFOSYS/rjit17_lvyoar.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914165/PN_INFOSYS/rjit18_elwfdr.jpg",
+  ];
   return (
     <>
       <div className="page-heading">
@@ -29,210 +43,20 @@ function RJIT() {
             </div>
             <div className="col-lg-12">
               <div className="row masonry-layout filters-content normal-col-gap">
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit10.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit10.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
+                {imgLink.map((link, index) => (
+                  <div
+                    key={index}
+                    className="col-lg-4 masonry-item all category-analysis"
+                  >
+                    <div className="case-item">
+                      <a href={link} target className="zoom">
+                        <div className="case-thumb">
+                          <img src={link} alt style={{ marginTop: 0 }} />
+                        </div>
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-seo">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit9.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit9.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-digital">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit4.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit4.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-digital">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit1.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit1.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit2.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit2.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-seo">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit12.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit12.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit14.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit14.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit15.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit15.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit16.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit16.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit13%20(2).jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit13%20(2).jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit17.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit17.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit18.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/rjit/rjit18.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

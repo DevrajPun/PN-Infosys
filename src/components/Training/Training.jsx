@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import elearning from "../../assets/images/e-learning.png";
 
 function Index() {
   return (
@@ -43,10 +44,7 @@ function Index() {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="right-image">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eservices%2Fe-learning.png?alt=media&token=71eaebcc-1041-4891-bb3d-68cc30b0173b"
-                  alt
-                />
+                <img src={elearning} alt />
               </div>
             </div>
           </div>
@@ -73,7 +71,7 @@ function Index() {
                     <a href="single-project.html">
                       <div className="case-thumb">
                         <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/traning%2Fcase3.jpg?alt=media&token=cc2f60c1-f87a-4c58-8106-93094e670db5"
+                          src="https://res.cloudinary.com/dow1049t2/image/upload/v1728756304/PN_INFOSYS/case3_zwoux0.jpg"
                           alt
                         />
                       </div>
@@ -91,7 +89,7 @@ function Index() {
                     <a href="single-project.html">
                       <div className="case-thumb">
                         <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/traning%2Fcase1.jpg?alt=media&token=3ce1d0a6-96d7-4a52-af86-0843364f3d5f"
+                          src="https://res.cloudinary.com/dow1049t2/image/upload/v1728756317/PN_INFOSYS/traning_case1_phriws.jpg"
                           alt
                         />
                       </div>
@@ -107,7 +105,7 @@ function Index() {
                     <a href="single-project.html">
                       <div className="case-thumb">
                         <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/traning%2Fcase2.jpg?alt=media&token=760e9692-2081-4b5e-b4eb-34b8e18ac041"
+                          src="https://res.cloudinary.com/dow1049t2/image/upload/v1728756315/PN_INFOSYS/traning_case2_myk1vl.jpg"
                           alt
                         />
                       </div>
@@ -140,7 +138,7 @@ function Index() {
               <div className="feature-item">
                 <div className="icon" style={{ paddingTop: 15 }}>
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/traning%2Fbanner_small.png?alt=media&token=1b4e98d5-531b-4ca7-8b7a-dc305445e62e"
+                    src="https://res.cloudinary.com/dow1049t2/image/upload/v1728756312/PN_INFOSYS/traning_banner_small_vbnvoz.png"
                     alt
                   />
                 </div>
@@ -154,7 +152,7 @@ function Index() {
               <div className="feature-item">
                 <div className="icon">
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/traning%2Foffice_work_6.png?alt=media&token=3f0fd8a9-3ddf-40ca-8f60-2979a5383414"
+                    src="https://res.cloudinary.com/dow1049t2/image/upload/v1728756305/PN_INFOSYS/traning_office_work_6_csngee.png"
                     alt
                     style={{ maxWidth: 154 }}
                   />
@@ -170,7 +168,7 @@ function Index() {
               <div className="feature-item">
                 <div className="icon">
                   <img
-                    src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/traning%2Flaptop_3.png?alt=media&token=27efabb2-bc3a-4d94-8884-104edab73205"
+                    src="https://res.cloudinary.com/dow1049t2/image/upload/v1728756306/PN_INFOSYS/traning_laptop_3_dlrqa7.png"
                     alt
                     style={{ maxWidth: 128 }}
                   />
@@ -185,7 +183,8 @@ function Index() {
           </div>
         </div>
       </section>
-      <br /><br />
+      <br />
+      <br />
     </>
   );
 }

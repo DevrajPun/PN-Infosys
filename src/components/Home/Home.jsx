@@ -1,4 +1,12 @@
 import React from "react";
+import training from "../../assets/images/training.png";
+import collaborative1 from "../../assets/images/collaborative1.jpg";
+import thinking from "../../assets/images/thinking.png";
+import dedication from "../../assets/images/dedication.jpg";
+import banner2 from "../../assets/images/banner2.png";
+import learning from "../../assets/images/learning.png";
+import elearning from "../../assets/images/e-learning.png";
+import Technologies from "../Technologies/Technologies";
 
 function Home() {
   return (
@@ -6,10 +14,6 @@ function Home() {
       {/* section one */}
       <div
         className="main-content"
-        style={{
-          background:
-            "url('https://pninfosys.com/assets/frontend/images/banner.png')",
-        }}
       >
         <div className="parallax-banner">
           <div className="inner-header">
@@ -22,11 +26,7 @@ function Home() {
                 <br /> We're ready to help you grow!.
               </h1>
               <div className="main-decoration">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ebanner%2Fbanner2.png?alt=media&token=ca3ffc74-514c-4d79-9af4-c025e88b89aa"
-                  alt
-                  style={{ width: "50%" }}
-                />
+                <img src={banner2} alt style={{ width: "50%" }} />
               </div>
             </div>
           </div>
@@ -72,22 +72,17 @@ function Home() {
       </div>
       {/* section two */}
       <section className="features" style={{ marginTop: 45 }}>
-        <h4 className="lead text-center">
+        <p class="lead text-center fs-6 fs-md-5 fs-lg-4 px-1">
           PN INFOSYS is a leading global business consulting and IT service
-          company,
-          <br />
-          Whether you need to run your business more efficiently or accelerate
-          revenue growth, PN INFOSYS can get you there.
-        </h4>
+          company, Whether you need to run your business more efficiently or
+          accelerate revenue growth, PN INFOSYS can get you there.
+        </p>
         <div className="container-fluid" style={{ width: "95%" }}>
           <div className="row">
             <div className="col-lg-3">
               <div className="feature-item">
                 <div className="icon">
-                  <img
-                    src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Efeature%2Fcollaborative1.jpg?alt=media&token=b8ce06a7-a1c9-41e7-a4ed-3e65be127f11"
-                    alt
-                  />
+                  <img src={collaborative1} alt />
                 </div>
                 <h4>
                   Collaborative
@@ -102,10 +97,7 @@ function Home() {
             <div className="col-lg-3">
               <div className="feature-item">
                 <div className="icon">
-                  <img
-                    src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Efeature%2Fthinking.png?alt=media&token=a4d7e55a-cc39-443b-bcbc-92921ae35f6a"
-                    alt
-                  />
+                  <img src={thinking} alt />
                 </div>
                 <h4>
                   Expert
@@ -120,10 +112,7 @@ function Home() {
             <div className="col-lg-3">
               <div className="feature-item">
                 <div className="icon">
-                  <img
-                    src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Efeature%2Fdedication.jpg?alt=media&token=2b6177d8-816a-45d8-acec-ca235232235e"
-                    alt
-                  />
+                  <img src={dedication} alt />
                 </div>
                 <h4>Exorbitant Dedication</h4>
                 <p>
@@ -135,10 +124,7 @@ function Home() {
             <div className="col-lg-3">
               <div className="feature-item">
                 <div className="icon">
-                  <img
-                    src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Efeature%2Ftraining.png?alt=media&token=9f731de1-607f-4ce5-999b-3b5b940a78ae"
-                    alt
-                  />
+                  <img src={training} alt />
                 </div>
                 <h4>
                   Industrial <br />
@@ -234,229 +220,18 @@ function Home() {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="right-image">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Etips%2Flearning.png?alt=media&token=ce9f919b-595f-44e0-bbbd-aa72aba5b8f6"
-                  alt
-                />
+                <img src={learning} alt />
               </div>
             </div>
           </div>
         </div>
       </section>
       {/* technology */}
-      <section className="recent-cases">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-4">
-              <div className="section-heading">
-                <h4 style={{ fontSize: "xx-large" }}>Technologies</h4>
-                <h1 style={{ color: "#009df2", fontSize: "xxx-large" }}>
-                  We works on..
-                </h1>
-              </div>
-            </div>
-            <div className="col-lg-8">
-              <div className="portfolio-filters">
-                <ul>
-                  <li data-filter="*" className="active">
-                    Show All
-                  </li>
-                  <li data-filter=".web_design">Web Designing</li>
-                  <li data-filter=".web_dev">Web Development</li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              <div className="row masonry-layout filters-content normal-col-gap">
-                <div className="col-lg-3 masonry-item all web_design">
-                  <div className="case-item">
-                    <div className="case-thumb">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fhtml_5.png?alt=media&token=61a7ca43-c857-4fad-9a61-a369753f95a9"
-                        alt
-                        style={{ width: "75%", marginLeft: 39 }}
-                      />
-                    </div>
-                    <div className="down-content" style={{ height: 118 }}>
-                      <h4>HTML 5</h4>
-                      <span>Markup language for Web pages.</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 masonry-item all web_design">
-                  <div className="case-item">
-                    <div className="case-thumb">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fcss_3.png?alt=media&token=55492815-4de7-4fee-9c1e-043549aabac5"
-                        alt
-                        style={{ width: "75%", marginLeft: 39 }}
-                      />
-                    </div>
-                    <div className="down-content">
-                      <h4>CSS 3</h4>
-                      <span>Cascading Style Sheets.</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 masonry-item all web_design">
-                  <div className="case-item">
-                    <div className="case-thumb">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fjavascript1.png?alt=media&token=bca923e2-0748-486d-bc2a-a9e7ea571f22"
-                        alt
-                        style={{ width: "75%", marginLeft: 39 }}
-                      />
-                    </div>
-                    <div className="down-content" style={{ height: 118 }}>
-                      <h4>Javascript</h4>
-                      <span>programming language for websites.</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 masonry-item all web_design">
-                  <div className="case-item">
-                    <div className="case-thumb">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fjquery.png?alt=media&token=20b7e294-b475-40dc-842d-991ece5eeb43"
-                        alt
-                        style={{ width: "75%", marginLeft: 39 }}
-                      />
-                    </div>
-                    <div className="down-content">
-                      <h4>jQuery</h4>
-                      <span>jQuery is a JavaScript Library.</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 masonry-item all web_design">
-                  <div className="case-item">
-                    <div className="case-thumb">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fbootstrap.png?alt=media&token=2fcc40e5-88f5-4cbe-8280-a96216ac8769"
-                        alt
-                        style={{ width: "75%", marginLeft: 39 }}
-                      />
-                    </div>
-                    <div className="down-content">
-                      <h4>Bootstrap</h4>
-                      <span>CSS framework</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 masonry-item all web_design">
-                  <div className="case-item">
-                    <div className="case-thumb">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fwordpress.png?alt=media&token=4466e1d5-e13b-45a3-be77-4f76d984b8c4"
-                        alt
-                        style={{ width: "75%", marginLeft: 39 }}
-                      />
-                    </div>
-                    <div className="down-content" style={{ height: 118 }}>
-                      <h4>Wordpress</h4>
-                      <span>Content Management System (CMS). </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 masonry-item all web_dev">
-                  <div className="case-item">
-                    <div className="case-thumb">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fphp.png?alt=media&token=701022ac-d1bc-4df6-b0f5-8655f48421fe"
-                        alt
-                        style={{ width: "75%", marginLeft: 39 }}
-                      />
-                    </div>
-                    <div className="down-content" style={{ height: 118 }}>
-                      <h4>PHP</h4>
-                      <span>PHP is a Server Scripting Language. </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 masonry-item all web_design">
-                  <div className="case-item">
-                    <div className="case-thumb">
-                      <img
-                        src="https://pninfosys.com/assets/frontend/images/technology/angular.png"
-                        alt
-                        style={{ width: "75%", marginLeft: 39 }}
-                      />
-                    </div>
-                    <div className="down-content">
-                      <h4>Angular</h4>
-                      <span>JavaScript framework. </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 masonry-item all web_dev">
-                  <div className="case-item">
-                    <div className="case-thumb">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Flaravel.png?alt=media&token=a443045f-69b4-4f8d-be75-729b241e0c76"
-                        alt
-                        style={{ width: "75%", marginLeft: 39 }}
-                      />
-                    </div>
-                    <div className="down-content">
-                      <h4>Laravel</h4>
-                      <span>PHP based web-framework. </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 masonry-item all web_design">
-                  <div className="case-item">
-                    <div className="case-thumb">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fsql.jpg?alt=media&token=120f6bf6-24b2-43d8-a73b-0e8d9a2c1195"
-                        alt
-                        style={{ width: "100%", height: "100%" }}
-                      />
-                    </div>
-                    <div className="down-content">
-                      <h4>SQL</h4>
-                      <span>Query Language For Database. </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 masonry-item all web_dev">
-                  <div className="case-item">
-                    <div className="case-thumb">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fpython.png?alt=media&token=3778eca2-0dce-4f18-a765-8b954ecc46a0"
-                        alt
-                        style={{ width: "75%", marginLeft: 39 }}
-                      />
-                    </div>
-                    <div className="down-content">
-                      <h4>Python</h4>
-                      <span>Programing Language. </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3 masonry-item all web_dev">
-                  <div className="case-item">
-                    <div className="case-thumb">
-                      <img
-                        src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Ecases%2Fdjango.png?alt=media&token=d42f9fd1-24c1-4821-aa63-91bbe6b5f879"
-                        alt
-                        style={{ width: "75%", marginLeft: 39 }}
-                      />
-                    </div>
-                    <div className="down-content" style={{ height: 118 }}>
-                      <h4>Django</h4>
-                      <span>Open Source Python FrameWork</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Technologies />
       {/* portfolio */}
       <section className="portfolio-page-second-version">
         <div className="container">
-          <div className="row mb-5">
+          <div className="row">
             <div className="col-lg-4">
               <div className="section-heading">
                 <h4 style={{ fontSize: "xx-large" }}>Our</h4>
@@ -469,42 +244,42 @@ function Home() {
           <div className="row">
             {[
               {
-                src: "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eportfolio%2Fidtrnew.png?alt=media&token=724ae9b3-fc39-4e1d-9def-8f717da38d66",
+                src: "https://res.cloudinary.com/dow1049t2/image/upload/v1728717201/PN_INFOSYS/IDTR-Logo_u3uwci.png",
                 alt: "Institute of Drivers Training and Research",
                 title: "Institute of Drivers Training and Research",
                 subtitle: "Gwalior",
                 link: "http://idtrgwl.com/",
               },
               {
-                src: "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eportfolio%2Fport2.jpg?alt=media&token=64c3b21f-108d-43c9-948d-26f2d22968e1",
+                src: "https://res.cloudinary.com/dow1049t2/image/upload/v1728716781/PN_INFOSYS/port2_xz2iko.jpg",
                 alt: "Central Institute for Research on Buffaloes",
                 title: "C I A R",
                 subtitle: "Central Institute for Research on Buffaloes",
                 link: "#/none",
               },
               {
-                src: "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eportfolio%2Fport3.jpg?alt=media&token=97999133-c6a3-46e6-a728-e32c5a92c74a",
+                src: "https://res.cloudinary.com/dow1049t2/image/upload/v1728716781/PN_INFOSYS/port3_pwjlbq.jpg",
                 alt: "Rishi Galav Public School",
                 title: "Rishi Galav Public School",
                 subtitle: "Best School in Gwalior",
                 link: "#/none",
               },
               {
-                src: "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eportfolio%2Fvee.jpg?alt=media&token=66c083af-8a0b-4a18-8d83-3965d9db6743",
+                src: "https://res.cloudinary.com/dow1049t2/image/upload/v1728716781/PN_INFOSYS/vee_ilu7x5.jpg",
                 alt: "VEE ACADEMY",
                 title: "VEE ACADEMY",
                 subtitle: "Gwalior",
                 link: "https://vikasedugwl.com/",
               },
               {
-                src: "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eportfolio%2Fport5.jpg?alt=media&token=41a3ba64-bfaa-4872-9445-e761d44fa94a",
+                src: "https://res.cloudinary.com/dow1049t2/image/upload/v1728716781/PN_INFOSYS/port5_w8d0ms.jpg",
                 alt: "Allure Constructions",
                 title: "Allure Constructions",
                 subtitle: "Allure Constructions Company",
                 link: "#/none",
               },
               {
-                src: "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eportfolio%2FSonagir-logo.png?alt=media&token=5d2c5b91-e7a1-4ae3-a234-6f946dafd08d",
+                src: "https://res.cloudinary.com/dow1049t2/image/upload/v1728716780/PN_INFOSYS/Sonagir-logo_s8rgqi.png",
                 alt: "Sonagir",
                 title: "Sonagir",
                 subtitle: "Sonagir Website",
@@ -643,10 +418,7 @@ function Home() {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="right-image">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eservices%2Fe-learning.png?alt=media&token=71eaebcc-1041-4891-bb3d-68cc30b0173b"
-                  alt
-                />
+                <img src={elearning} alt />
               </div>
             </div>
           </div>
@@ -669,7 +441,7 @@ function Home() {
                 {[
                   {
                     imgSrc:
-                      "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eclient%2Fe1.jpg?alt=media&token=e6e44a43-8e57-4d03-a8c5-5c120f33f9f0",
+                      "https://res.cloudinary.com/dow1049t2/image/upload/PN_INFOSYS/v1728716414/e1_efkxht.jpg",
                     altText: "Workshop by Senior Advisor",
                     title: "Workshop by Senior Advisor",
                     description: [
@@ -679,7 +451,7 @@ function Home() {
                   },
                   {
                     imgSrc:
-                      "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eclient%2Fe2.jpg?alt=media&token=858212a2-77c6-4932-9a26-06eeccb44168",
+                      "https://res.cloudinary.com/dow1049t2/image/upload/PN_INFOSYS/v1728716409/e2_blivfl.jpg",
                     altText: "PN INFOSYS invited as Chief Guest",
                     title: "PN INFOSYS invited as Chief Guest",
                     description: [
@@ -689,7 +461,7 @@ function Home() {
                   },
                   {
                     imgSrc:
-                      "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eclient%2Fe3.jpg?alt=media&token=0f9d6230-34e3-4233-b31f-a6c5e646bbcd",
+                      "https://res.cloudinary.com/dow1049t2/image/upload/PN_INFOSYS/v1728716413/e3_rsuqh7.jpg",
                     altText: "Social Applaud by MPCT college",
                     title: "Social Applaud by MPCT college",
                     description: [
@@ -699,7 +471,7 @@ function Home() {
                   },
                   {
                     imgSrc:
-                      "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eclient%2Fe4.jpg?alt=media&token=33d539d8-9574-40ff-85f7-ae4ce208f65e",
+                      "https://res.cloudinary.com/dow1049t2/image/upload/PN_INFOSYS/v1728716409/e4_mrhd3h.jpg",
                     altText: "Social Applaud for our Work",
                     title: "Social Applaud for our Work",
                     description: [
@@ -708,7 +480,7 @@ function Home() {
                   },
                   {
                     imgSrc:
-                      "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eclient%2Fe5.jpg?alt=media&token=1a40c8b1-c469-48b6-b0ad-608edae9543c",
+                      "https://res.cloudinary.com/dow1049t2/image/upload/PN_INFOSYS/v1728716409/e5_zr2mla.jpg",
                     altText: "New Branch Opening in Indore",
                     title: "New Branch Opening in Indore",
                     description: [
@@ -718,7 +490,7 @@ function Home() {
                   },
                   {
                     imgSrc:
-                      "https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/home-%3Eclient%2Fe6.jpg?alt=media&token=d293bbea-2474-4b0e-99c2-1734428c81fc",
+                      "https://res.cloudinary.com/dow1049t2/image/upload/PN_INFOSYS/v1728716409/e6_juczdv.jpg",
                     altText: "Workshop by Senior Advisor",
                     title: "Workshop by Senior Advisor",
                     description: [

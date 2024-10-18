@@ -1,6 +1,17 @@
 import React from "react";
 
 function BentChair() {
+  const imgLink = [
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914447/PN_INFOSYS/office1_poojsi.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914448/PN_INFOSYS/office10_fykkki.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914445/PN_INFOSYS/office9_hvslca.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914445/PN_INFOSYS/office6_zpgdrb.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914445/PN_INFOSYS/office8_jo5x2b.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914446/PN_INFOSYS/office15_aynba4.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914446/PN_INFOSYS/office17_wkfvxd.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914447/PN_INFOSYS/office16_awdnpn.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728914447/PN_INFOSYS/office18_nkuxvj.jpg",
+  ];
   return (
     <>
       <div className="page-heading">
@@ -29,175 +40,24 @@ function BentChair() {
             </div>
             <div className="col-lg-12">
               <div className="row masonry-layout filters-content normal-col-gap">
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office1.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office1.jpg"
-                          alt="ffice1.jpg"
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
+                {imgLink.map((link, index) => (
+                  <div
+                    key={index}
+                    className="col-lg-4 masonry-item all category-analysis"
+                  >
+                    <div className="case-item">
+                      <a href={link} target className="zoom">
+                        <div className="case-thumb">
+                          <img
+                            src={link}
+                            alt="ffice1.jpg"
+                            style={{ marginTop: 0 }}
+                          />
+                        </div>
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office10.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office10.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-seo">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office9.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office9.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office6.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office6.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office8.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office8.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office15.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office15.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office17.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office17.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office16.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office16.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/workshop/office/office18.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/workshop/office/office18.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          id="exampleModal"
-          tabIndex={-1}
-          role="dialog"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-          className="modal fade"
-        >
-          <div className="modal-dialog">
-            <div className="modal-content">
-              <div className="modal-body">
-                <img src="assets/frontend/images/workshop/office/office1.jpg" />
+                ))}
               </div>
             </div>
           </div>

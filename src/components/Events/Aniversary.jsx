@@ -1,15 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Aniversary() {
+  const imageLinks = [
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1729151245/PN_INFOSYS/a1_hkv6lx.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1729151245/PN_INFOSYS/a8_m3r8xc.png",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1729151247/PN_INFOSYS/a9_fbdzau.png",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1729151246/PN_INFOSYS/a4_xtasi3.png",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1729151246/PN_INFOSYS/a2_bvppmj.png",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1729151246/PN_INFOSYS/a3_cexhkb.png",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1729151246/PN_INFOSYS/a5_mlvyf7.png",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1729151246/PN_INFOSYS/a7_a2ugji.png",
+  ];
   return (
     <>
       <div className="page-heading">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h1>aniversary Celebration</h1>
+              <h1>Aniversary Celebration</h1>
               <span>
-                <a href="#/none">Home</a>
+                <Link to="/">Home</Link>
                 Celebration
               </span>
             </div>
@@ -27,159 +38,20 @@ function Aniversary() {
             </div>
             <div className="col-lg-12">
               <div className="row masonry-layout filters-content normal-col-gap">
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a1.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a1.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
+                {imageLinks.map((link, index) => (
+                  <div
+                    key={index}
+                    className="col-lg-4 masonry-item all category-analysis"
+                  >
+                    <div className="case-item">
+                      <a href={link} target className="zoom">
+                        <div className="case-thumb">
+                          <img src={link} alt style={{ marginTop: 0 }} />
+                        </div>
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-seo">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a2.png"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a2.png"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-digital">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a1.jpg"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a1.jpg"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-digital">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a4.png"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a4.png"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a5.png"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a5.png"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-seo">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a6.png"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a6.png"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-seo">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a7.png"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a7.png"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-seo">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a8.png"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a8.png"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-seo">
-                  <div className="case-item">
-                    <a
-                      href="https://pninfosys.com/assets/frontend/images/event/aniversary/a9.png"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://pninfosys.com/assets/frontend/images/event/aniversary/a9.png"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

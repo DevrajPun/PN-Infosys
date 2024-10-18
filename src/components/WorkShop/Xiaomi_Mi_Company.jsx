@@ -2,6 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Xiaomi_Mi_Company() {
+  const imgLink = [
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728757357/PN_INFOSYS/workshop_vaibhav1_rlga53.png",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728757354/PN_INFOSYS/mi2_bja4yx.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728757351/PN_INFOSYS/workshop_vaibhav3_myv7tf.png",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728757348/PN_INFOSYS/workshop_vaibhav4_ijiaw4.png",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728757346/PN_INFOSYS/mi5_v7fvon.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728757343/PN_INFOSYS/mi6_reowcl.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728757340/PN_INFOSYS/workshop_vaibhav7_dztrw5.png",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728757336/PN_INFOSYS/mi8_bpehxq.jpg",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728757336/PN_INFOSYS/workshop_vaibhav9_volpga.png",
+    "https://res.cloudinary.com/dow1049t2/image/upload/v1728757375/PN_INFOSYS/workshop_vaibhav10_odlwky.png",
+  ];
   return (
     <>
       <div className="page-heading">
@@ -30,176 +42,20 @@ function Xiaomi_Mi_Company() {
             </div>
             <div className="col-lg-12">
               <div className="row masonry-layout filters-content normal-col-gap">
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fworkshop_vaibhav1.png?alt=media&token=741c1e55-3b49-433c-b7c7-381e2d144b99"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fworkshop_vaibhav1.png?alt=media&token=741c1e55-3b49-433c-b7c7-381e2d144b99"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
+                {imgLink.map((link, index) => (
+                  <div
+                    key={index}
+                    className="col-lg-4 masonry-item all category-analysis"
+                  >
+                    <div className="case-item">
+                      <a href={link} className="zoom">
+                        <div className="case-thumb">
+                          <img src={link} alt style={{ marginTop: 0 }} />
+                        </div>
+                      </a>
+                    </div>
                   </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-seo">
-                  <div className="case-item">
-                    <a
-                      href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fmi2.jpg?alt=media&token=bd51b2e2-878e-4d6a-8224-64639fd253c3"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fmi2.jpg?alt=media&token=bd51b2e2-878e-4d6a-8224-64639fd253c3"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-digital">
-                  <div className="case-item">
-                    <a
-                      href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fworkshop_vaibhav3.png?alt=media&token=9e1980d7-bde1-4c2b-8f26-aa900afa4a5c"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fworkshop_vaibhav3.png?alt=media&token=9e1980d7-bde1-4c2b-8f26-aa900afa4a5c"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-digital">
-                  <div className="case-item">
-                    <a
-                      href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fworkshop_vaibhav4.png?alt=media&token=a1e6810f-dc14-4d0a-a1a2-ecbf3958750c"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fworkshop_vaibhav4.png?alt=media&token=a1e6810f-dc14-4d0a-a1a2-ecbf3958750c"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fmi5.jpg?alt=media&token=97340bfc-776a-46b5-b22c-614ade71fd8c"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fmi5.jpg?alt=media&token=97340bfc-776a-46b5-b22c-614ade71fd8c"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-seo">
-                  <div className="case-item">
-                    <a
-                      href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fmi6.jpg?alt=media&token=7198e818-0f51-4a29-a068-73e151298149"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fmi6.jpg?alt=media&token=7198e818-0f51-4a29-a068-73e151298149"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fworkshop_vaibhav7.png?alt=media&token=2b489f1b-4438-4bce-809f-52dd56ded95c"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fworkshop_vaibhav7.png?alt=media&token=2b489f1b-4438-4bce-809f-52dd56ded95c"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fmi8.jpg?alt=media&token=f2683538-1787-4495-afa4-983201a4dd3a"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fmi8.jpg?alt=media&token=f2683538-1787-4495-afa4-983201a4dd3a"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fworkshop_vaibhav9.png?alt=media&token=4c248d19-a192-4a76-a953-f07b8acfa45b"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fworkshop_vaibhav9.png?alt=media&token=4c248d19-a192-4a76-a953-f07b8acfa45b"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-4 masonry-item all category-analysis">
-                  <div className="case-item">
-                    <a
-                      href="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fworkshop_vaibhav10.png?alt=media&token=da265b16-566e-4936-95ca-769421dcc43b"
-                      target
-                      className="zoom"
-                    >
-                      <div className="case-thumb">
-                        <img
-                          src="https://firebasestorage.googleapis.com/v0/b/pn-images.appspot.com/o/workshop%2Fxaomi%2Fworkshop_vaibhav10.png?alt=media&token=da265b16-566e-4936-95ca-769421dcc43b"
-                          alt
-                          style={{ marginTop: 0 }}
-                        />
-                      </div>
-                    </a>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

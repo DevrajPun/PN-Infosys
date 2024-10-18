@@ -2,9 +2,9 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./assets/font-awesome.min.css";
 import "./assets/style.css";
-import Nav from "./components/Nav";
-import Home from "./components/Home";
-import Footer from "./components/Footer";
+import Nav from "./components/Layouts/Nav";
+import Home from "./components/Home/Home";
+import Footer from "./components/Layouts/Footer";
 import About from "./components/About_Us/About";
 import OurServices from "./components/OurServices/OurServices";
 import Training from "./components/Training/Training";
@@ -19,8 +19,7 @@ import Birthday from "./components/Events/Birthday";
 import Aniversary from "./components/Events/Aniversary";
 import Tours from "./components/Events/Tours";
 import Prestige from "./components/WorkShop/Prestige";
-import Placement from "./components/Placement/Placement";
-// import Notfound from "./components/NotFound/NotFound";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
@@ -42,8 +41,7 @@ function App() {
         <Route path="/tour" element={<Tours />} />
         <Route path="/aniversary" element={<Aniversary />} />
         <Route path="/contact" element={<ContactUs />} />
-        <Route path="/placement" element={<Placement />} />
-        {/* <Route path="*" element={<Notfound />} /> */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
